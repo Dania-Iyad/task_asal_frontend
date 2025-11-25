@@ -14,10 +14,19 @@
     gap: 2rem;
 }
 
-
 .navbar-menu li a {
     text-decoration: none;
     color: #000;
     font-weight: bold;
     font-size: 16px;
 }
+
+
+.nav_icons img {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
