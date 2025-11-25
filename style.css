@@ -8,3 +8,8 @@
     height: 60px;
 }
 
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
