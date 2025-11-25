@@ -29,4 +29,7 @@
     cursor: pointer;
 }
 
-
+.nav_icons {
+    display: flex;
+    align-items: center;
+}
