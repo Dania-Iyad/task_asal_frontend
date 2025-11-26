@@ -36,11 +36,11 @@ body {
     display: flex;
     gap: 2rem;
     max-width: 80%;
-
+    padding: 0;
 }
 
 .navbar-menu li a {
-    display: absolute;
+    position: absolute;
     max-width: 80%;
     text-decoration: none;
     color: #000;
@@ -50,7 +50,7 @@ body {
 
 
 .nav_icons img {
-    display: absolute;
+    position: absolute;
     max-width: 10%;
     max-height: 10%;
     margin-left: 15px;
