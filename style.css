@@ -8,6 +8,14 @@ body {
     font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
     width: 100%;
 }
+
+.container {
+    width: 80%;
+    max-width: 1200px;        
+    margin: auto;
+    padding: 0 20px;          
+}
+
 .navbar {
     margin: 0;
     width: 100%;
@@ -16,7 +24,7 @@ body {
     box-shadow: 0 5px 10px -2px rgb(150, 212, 229);
 }
 
-.container {
+.container-nav {
     max-width: 80%;
     margin: auto;
     display: flex;
