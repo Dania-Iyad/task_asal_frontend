@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    max-width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-logo {
-    width: 70px;
+    max-width: 6%;
     height: auto;
 }
 
@@ -35,24 +35,31 @@ body {
     list-style: none;
     display: flex;
     gap: 2rem;
+    max-width: 80%;
+
 }
 
 .navbar-menu li a {
+    display: absolute;
+    max-width: 80%;
     text-decoration: none;
     color: #000;
-    font-size: 16px;
+    font-size: 1.3vw;
     font-family: sans-serif;
 }
 
 
 .nav_icons img {
-    width: 16px;
-    height: 16px;
+    display: absolute;
+    max-width: 10%;
+    max-height: 10%;
     margin-left: 15px;
     cursor: pointer;
 }
 
 .nav_icons {
+    max-width: 16%;
+    max-height: 16%;
     display: flex;
     align-items: center;
 }
