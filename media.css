@@ -25,6 +25,9 @@
         height: 20%;
         width: 20%;
     }
+    #about .container {
+        margin-top: 10%;
+    }
 }
 @media screen and (max-width: 550px) {
     .cards .card {
@@ -32,10 +35,4 @@
         gap: 1rem !important;
         height: 28%;
     }
-}
-@media screen and (max-width: 720px) {
-    .cards .card {
-        height: 50%;
-    }
-
 }

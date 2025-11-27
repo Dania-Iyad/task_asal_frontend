@@ -120,9 +120,9 @@ section {
     margin-top: 2%;
     color: #fff;
     background-color: rgb(69, 183, 196);
-    padding: 1% 3%;
+    padding: 1.1% 3.5%;
     border: none;
-    font-size: 1.2vw;
+    font-size: 1vw;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -210,4 +210,76 @@ section {
 
 
 
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85%;
+    gap: 10%;
+}
+
+.about-text {
+    max-width: 40%;
+    color: #000;
+}
+
+.about-text h1 {
+    font-size: 2.8vw;
+}
+
+.about-text p {
+    font-size: 1vw;
+    margin: 10% 0;
+}
+
+.about-text .btn {
+    color: #fff;
+    background-color: rgb(69, 183, 196);
+    padding: 1vh 3vw;
+    border: none;
+    font-size: 1.3vw;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.about-text .btn:hover {
+    background-color: rgb(50, 150, 170);
+    transform: translateY(-5%);
+}
+
+.about-img {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+}
+
+.about-text .btn {
+    margin-top: 2%;
+    color: #fff;
+    background-color: rgb(69, 183, 196);
+    padding: 1.1% 3.5%;
+    border: none;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.about-text .btn:hover {
+    background-color: rgb(50, 150, 170);
+    transform: translateY(-10%);
+    box-shadow: 0 5px 15px rgba(69,183,196,0.4);
+}
 
