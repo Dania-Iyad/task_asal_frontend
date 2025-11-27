@@ -292,12 +292,33 @@ section {
 
 
 
-
-#features {
-    text-align: center;
+#Featured {
+    text-align: center;      
     display: flex;
     justify-content: center;
     max-width: 100%;
-    background-color: #f5f5f5;
     padding: 5% 0;
 }
+
+#Featured .container {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;      
+}
+
+#Featured .cards {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;      
+}
+
+#Featured .card {
+    width: 22%;
+    background: #fff;
+    border-radius: 1vw;
+    padding: 2%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
