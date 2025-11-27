@@ -343,9 +343,9 @@ section {
 
 #Featured .card {
     flex: 0 0 auto;
-    min-width: 15vw;
+    min-width: 20vw;
     background: #fff;
-    padding: 2%;
+    padding: 0.5vw 2.5vw;
     border: 0.15vw solid #b3b3b3;
     box-shadow: 0 0 10px rgba(48, 48, 48, 0);
     text-align: center;
@@ -354,7 +354,7 @@ section {
 }
 
 #Featured .card:hover {
-    box-shadow: 0 0 10px rgba(48, 48, 48, 0.3);
+    box-shadow: 0 0 7px rgb(57, 169, 162);
     transform: translateY(-5%);
 }
 
@@ -372,7 +372,7 @@ section {
     font-size: 1.2vw;
     color: #8e8d8d;
     font-weight: 500;
-    margin-bottom: 5%;
+    margin: 0;
 }
 
 #Featured .span1 {
@@ -396,7 +396,7 @@ section {
     padding: 0.8rem 1.8rem;  
     font-size: 1rem; 
     transition: all 0.3s ease;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 #Featured .feat-btn:hover {
