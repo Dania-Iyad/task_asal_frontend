@@ -283,3 +283,21 @@ section {
     box-shadow: 0 5px 15px rgba(69,183,196,0.4);
 }
 
+
+
+
+
+
+
+
+
+
+
+#features {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    background-color: #f5f5f5;
+    padding: 5% 0;
+}
