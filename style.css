@@ -323,9 +323,23 @@ section {
     padding-right: 2vw; 
 }
 
-#Featured .cards::-webkit-scrollbar {
-    height: 0.5vh;
+#Featured .cards-wrapper::-webkit-scrollbar {
+    height: 0.8vh;       
 }
+
+#Featured .cards-wrapper::-webkit-scrollbar-track {
+    background: #f0f0f0;  
+}
+
+#Featured .cards-wrapper::-webkit-scrollbar-thumb {
+    background: rgb(69, 183, 196);  
+    border-radius: 5px;             
+}
+
+#Featured .cards-wrapper::-webkit-scrollbar-thumb:hover {
+    background: rgb(50, 150, 170);
+}
+
 
 #Featured .card {
     flex: 0 0 auto;
@@ -337,6 +351,11 @@ section {
     text-align: center;
     box-sizing: border-box;
     scroll-snap-align: start;
+}
+
+#Featured .card:hover {
+    box-shadow: 0 0 10px rgba(48, 48, 48, 0.3);
+    transform: translateY(-5%);
 }
 
 #Featured .card img {
