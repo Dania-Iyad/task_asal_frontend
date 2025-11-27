@@ -371,7 +371,8 @@ section {
 #Featured .card p {
     font-size: 1.2vw;
     color: #8e8d8d;
-    font-weight: 480;
+    font-weight: 500;
+    margin-bottom: 5%;
 }
 
 #Featured .span1 {
@@ -398,3 +399,9 @@ section {
     margin-bottom: 2rem;
 }
 
+#Featured .feat-btn:hover {
+    background-color: rgb(57, 169, 162);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(69,183,196,0.4);
+    transform: translateY(-5%);
+}
