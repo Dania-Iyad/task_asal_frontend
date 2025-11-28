@@ -21,6 +21,9 @@ section {
     box-shadow: 0 5px 10px -2px rgb(150, 224, 229);
     position: fixed;
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
 }
 
 .container-nav {
@@ -68,6 +71,9 @@ section {
     align-items: center;
 }
 
+.nav_list {
+    display: none;
+}
 
 
 
@@ -313,16 +319,13 @@ section {
     overflow-x: auto;
     overflow-y: hidden;
     scroll-behavior: smooth;
-    padding: 0 2vw;
-    scroll-snap-type: x mandatory;
-    scroll-padding-left: 2vw;
-    scroll-padding-right: 2vw;
 }
 
 #Featured .cards {
     display: flex;
     gap: 2vw;
     flex-wrap: nowrap;
+    overflow-x: auto;
     padding-right: 2vw; 
 }
 
@@ -343,6 +346,10 @@ section {
     background: rgb(50, 150, 170);
 }
 
+#Featured .cards-wrapper {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(57,169,162) #f0f0f0;
+}
 
 #Featured .card {
     flex: 0 0 auto;  
@@ -394,12 +401,13 @@ section {
 
 #Featured .feat-btn {
     margin-top: 2%;
+    height: 3vw;
     color: #000;
     background-color: #fff;
     border: 0.15vw solid rgb(57, 169, 162);
     box-shadow: 0 0 3px rgb(57, 169, 162);
     padding: 5% 20%;  
-    font-size: 1rem; 
+    font-size: 1vw; 
     transition: all 0.3s ease;
     margin-bottom: 0.5rem;
 }
