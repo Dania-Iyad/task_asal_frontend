@@ -50,7 +50,7 @@
     }
     .nav_list {
         display: block;
-        width: 30px;
+        width: 2.08vw;
         cursor: pointer;
     }
     .nav_logo, .nav_icons1, .nav_icons2 {
@@ -62,13 +62,13 @@
     .navbar-menu {
         display: none;
         justify-content: center;
-        align-items: center;
+        align-items: center !important;
         flex-direction: column;
         position: absolute;
         top: 1vh;        
         background: white;
         width: 100%;
-        padding: 15px;
+        padding: 1.04vw;
         box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         gap: 1rem;
     }
