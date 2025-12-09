@@ -336,10 +336,15 @@ section {
 
 #Featured .cards {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
     gap: 2vw;
     flex-wrap: nowrap;
-    overflow-x: auto;
+    overflow-x: scroll;
     padding-right: 2vw; 
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) #fbf8f8 ;
 }
 
 #Featured .cards-wrapper::-webkit-scrollbar {
@@ -365,16 +370,18 @@ section {
 }
 
 #Featured .card {
-    flex: 0 0 auto;  
     min-width: 17vw;
-    background: #fff;
-    height: 25vw;
-    padding: 0.5vw 2.5vw 0 ;
-    border: 0.15vw solid #b3b3b3;
-    box-shadow: 0 0 10px rgba(48, 48, 48, 0);
+    border: 0.1vw solid rgb(57,169,162) 
     text-align: center;
-    box-sizing: border-box;
-    scroll-snap-align: start;
+    margin-left: 1.39vw;
+    margin-bottom: 0.69vw;
+    padding: 0.35vw;
+    white-space: nowrap;
+    transition:all 0.3s ease ;
+    -webkit-transition:all 0.3s ease ;
+    -moz-transition:all 0.3s ease ;
+    -ms-transition:all 0.3s ease ;
+    -o-transition:all 0.3s ease ;
 }
 
 #Featured .card:hover {
@@ -431,3 +438,4 @@ section {
     box-shadow: 0 5px 15px rgba(69,183,196,0.4);
     transform: translateY(-5%);
 }
+

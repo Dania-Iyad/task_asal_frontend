@@ -100,6 +100,8 @@
     #Featured .cards-wrapper {
         overflow-x: auto !important;
         white-space: nowrap;
+        display: flex;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 602px){
