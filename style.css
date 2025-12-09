@@ -370,7 +370,7 @@ section {
 }
 
 #Featured .card {
-    min-width: 17vw;
+    min-width: 15vw;
     border: 0.1vw solid rgb(57,169,162) 
     text-align: center;
     margin-left: 1.39vw;
