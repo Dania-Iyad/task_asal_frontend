@@ -7,6 +7,12 @@
         width: 230px; 
         min-height: 250px;
     }
+    #footer .container {
+        gap: 14px;
+    }
+    .f-box {
+        max-width: 120px;
+    }
     
 }
 @media screen and (max-width: 1200px) {
@@ -45,6 +51,12 @@
     top: 83px;
     left: 47px;
     padding: 4px 10px;
+    }
+    #footer .container {
+        gap: 15px;
+    }
+    .f-box {
+        max-width: 100px;
     }
         
 }
@@ -176,6 +188,12 @@
     #Digital-Book .Dig-book-btn{
     top: 120px;
     left: 100px;
+    }
+    #footer .container {
+        gap: 25px;
+    }
+    .f-box {
+        max-width: 130px;
     }
     
 }
