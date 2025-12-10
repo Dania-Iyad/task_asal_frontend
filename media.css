@@ -58,6 +58,7 @@
     }
     .navbar-menu.show {
         display: flex;
+        margin-top: 2.5vw;
     }
     .navbar-menu {
         display: none;
