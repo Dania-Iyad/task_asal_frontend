@@ -630,3 +630,15 @@ section {
     color:rgb(57, 169, 162) ;
     font-size: 12px;
 }
+
+
+
+#footer {
+    background: #e7e7e7;
+    padding: 17px 40px;
+}
+
+.footer-logo {
+    width: 80px;
+    height: auto;
+}
