@@ -579,3 +579,28 @@ section {
     left: 90px;
     padding: 7px 17px;
 }
+
+
+#Our-Blog {
+    text-align: center;
+    padding: 30px 0;
+    font-family: sans-serif;
+}
+#Our-Blog .Blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 93%;
+    margin: auto;
+    gap: 80px;
+    justify-content: center;
+}
+.Blog-card {
+    background: #fff;
+    border: 1.2px solid rgba(58, 53, 53, 0.176);
+    width: 310px; 
+    height: auto;
+    position: relative;
+    text-align: left;
+    transition: 0.3s;
+
+}
