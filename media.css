@@ -38,6 +38,14 @@
     #Featured p{
         margin-bottom: 0.5vw !important;
     }
+    #Digital-Book {
+        height: 20vh;
+    }
+    #Digital-Book .Dig-book-btn{
+    top: 83px;
+    left: 47px;
+    padding: 4px 10px;
+    }
         
 }
 
@@ -129,6 +137,14 @@
     .cards p{
         margin-bottom: 3% !important;
     }
+    #Digital-Book {
+        height: 20vh;
+    }
+    #Digital-Book .Dig-book-btn{
+    top: 83px;
+    left: 47px;
+    padding: 4px 10px;
+}
 }
 @media screen and (max-width: 550px) {
     .cards .card {
@@ -136,6 +152,11 @@
         gap: 1rem !important;
         height: 28%;
     }
+    #Digital-Book .Dig-book-btn{
+    top: 80px;
+    left: 60px;
+    padding: 5px 13px;
+}
 }
 
 @media (max-width: 414px) {
@@ -151,6 +172,10 @@
     .Arrival-card img {
         width: 160px;
         height: 70%;
+    }
+    #Digital-Book .Dig-book-btn{
+    top: 120px;
+    left: 100px;
     }
     
 }
