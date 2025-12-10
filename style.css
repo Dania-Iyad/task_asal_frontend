@@ -682,3 +682,23 @@ section {
     background: #d4d4d4;
     border: none;
 }
+
+.f-box button {
+    padding: 5px 14px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(57, 169, 162);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.Attribution{
+    text-align: center;
+    margin-top: 10px;
+}
+.Attribution p {
+    font-size: 12px;
+}
+.Attribution span {
+    color: rgb(57, 169, 162);
+}
