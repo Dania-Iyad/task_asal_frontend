@@ -537,3 +537,26 @@ section {
     border-radius: 50%;
     margin-bottom: 5px;
 }
+.card-review h3{
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-review p{
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+.stars i {
+    color: rgb(57, 169, 162);  
+    font-size: 12px;
+}
+
+
+.quote {
+    position: absolute;
+    top: 6px;
+    font-size: 70px;
+    right: 15px;
+    color: #e8e8e8;
+}
