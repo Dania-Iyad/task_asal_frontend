@@ -611,3 +611,22 @@ section {
     object-fit: cover;
     margin-bottom: 0%;
 }
+#Our-Blog .Blog-card h3{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 12px;
+    color:rgb(57, 169, 162) ;
+}
+#Our-Blog .Blog-card p{
+    font-size: 12px;
+    padding: 0px 12px;
+}
+.Blog-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    padding: 0px 12px;
+    cursor: pointer;
+    color:rgb(57, 169, 162) ;
+    font-size: 12px;
+}
