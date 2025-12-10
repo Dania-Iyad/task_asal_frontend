@@ -24,6 +24,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center ;
+    z-index: 1000;
 }
 
 .nav-menu {
@@ -378,10 +379,6 @@ section {
     padding: 0.35vw;
     white-space: nowrap;
     transition:all 0.3s ease ;
-    -webkit-transition:all 0.3s ease ;
-    -moz-transition:all 0.3s ease ;
-    -ms-transition:all 0.3s ease ;
-    -o-transition:all 0.3s ease ;
 }
 
 #Featured .card:hover {
@@ -439,3 +436,270 @@ section {
     transform: translateY(-5%);
 }
 
+#Arrivals {
+    padding: 50px 0;
+    text-align: center;
+    background: #fff;
+    font-family: sans-serif;
+}
+.arrivals-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+}
+.Arrival-card {
+    background: #ffffff;
+    border: 1px solid #383737;
+    padding: 6px 10px;
+    border-radius:2px;
+    transition: 0.3s;
+    width:160px ;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Arrival-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+.Arrival-card img {
+    width: 120px;
+    height: 70%;
+    margin-bottom: -8px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.311);
+}
+.Arrival-card h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+.stars i {
+    color: rgb(57, 169, 162);  
+    font-size: 12px;
+}
+.arrival-btn {
+    height: 30px;
+    color: #000;
+    background-color: #fff;
+    border: 0.15vw solid rgb(57, 169, 162);
+    box-shadow: 0 0 3px rgb(57, 169, 162);
+    padding: 9px 20px;  
+    font-size: 12px; 
+    transition: all 0.3s ease;
+    margin-top: 8px;
+}
+
+.arrival-btn:hover {
+    background-color: rgb(57, 169, 162);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(69,183,196,0.4);
+    transform: translateY(-5%);
+}
+
+
+
+
+#Reviews {
+    text-align: center;
+    padding: 50px 0;
+    font-family: sans-serif;
+}
+#Reviews .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 93%;
+    margin: auto;
+    gap: 14px;
+    justify-content: center;
+}
+.card-review {
+    background: #fff;
+    border: 1.5px solid rgb(182, 252, 248);
+    box-shadow: 0 0 3px rgb(57, 169, 162);
+    padding: 10px;
+    width: 255px; 
+    height: auto;
+    position: relative;
+    text-align: left;
+    transition: 0.3s;
+}
+.card-review:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.review-img{
+    object-fit: cover;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.card-review h3{
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-review p{
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+.stars i {
+    color: rgb(57, 169, 162);  
+    font-size: 12px;
+}
+
+
+.quote {
+    position: absolute;
+    top: 6px;
+    font-size: 70px;
+    right: 15px;
+    color: #e8e8e8;
+}
+
+
+#Digital-Book{
+    background-image:url(./img/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    position: relative;
+}
+#Digital-Book .Dig-book-btn{
+    color: #fff;
+    background-color: rgb(57, 169, 162);
+    text-decoration: none;
+    position: absolute;
+    top: 230px;
+    left: 90px;
+    padding: 7px 17px;
+}
+
+
+#Our-Blog {
+    text-align: center;
+    padding: 30px 0;
+    font-family: sans-serif;
+}
+#Our-Blog .Blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 93%;
+    margin: auto;
+    gap: 80px;
+    justify-content: center;
+}
+.Blog-card {
+    background: #fff;
+    border: 1.2px solid rgba(58, 53, 53, 0.176);
+    width: 310px; 
+    height: auto;
+    position: relative;
+    text-align: left;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+#Our-Blog .Blog-card img{
+    padding: 0%;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 0%;
+}
+#Our-Blog .Blog-card h3{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 12px;
+    color:rgb(57, 169, 162) ;
+}
+#Our-Blog .Blog-card p{
+    font-size: 12px;
+    padding: 0px 12px;
+}
+.Blog-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    padding: 0px 12px;
+    cursor: pointer;
+    color:rgb(57, 169, 162) ;
+    font-size: 12px;
+}
+
+
+
+#footer {
+    background: #e7e7e7;
+    padding: 17px 40px;
+}
+
+.footer-logo {
+    width: 80px;
+    height: auto;
+}
+#footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.f-box {
+    max-width: 180px;
+}
+.f-box h3 {
+    margin-bottom: 17px;
+}
+
+.f-box p {
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
+.f-box a {
+    display: block;
+    color: #000;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.follow-icon i {
+    font-size: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.f-box input {
+    width: 100%;
+    padding: 6px 15px;
+    border-radius: 19px;
+    background: #d4d4d4;
+    border: none;
+}
+
+.f-box button {
+    padding: 5px 14px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(57, 169, 162);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.Attribution{
+    text-align: center;
+    margin-top: 10px;
+}
+.Attribution p {
+    font-size: 12px;
+}
+.Attribution span {
+    color: rgb(57, 169, 162);
+}

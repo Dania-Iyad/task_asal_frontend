@@ -1,3 +1,26 @@
+@media (max-width: 1024px) {
+    .arrivals-container {
+        gap: 45px;
+    }
+    
+    .Arrival-card {
+        width: 230px; 
+        min-height: 250px;
+    }
+    #footer .container {
+        gap: 14px;
+    }
+    .f-box {
+        max-width: 120px;
+    }
+    #Reviews .container{
+        gap: 50px;
+    }
+    .card-review {
+        width: 270px;
+    }
+    
+}
 @media screen and (max-width: 1200px) {
     .Featured .feat_btn {
         height: 3vw;
@@ -26,6 +49,20 @@
     }
     #Featured p{
         margin-bottom: 0.5vw !important;
+    }
+    #Digital-Book {
+        height: 20vh;
+    }
+    #Digital-Book .Dig-book-btn{
+    top: 83px;
+    left: 47px;
+    padding: 4px 10px;
+    }
+    #footer .container {
+        gap: 15px;
+    }
+    .f-box {
+        max-width: 100px;
     }
         
 }
@@ -118,6 +155,14 @@
     .cards p{
         margin-bottom: 3% !important;
     }
+    #Digital-Book {
+        height: 20vh;
+    }
+    #Digital-Book .Dig-book-btn{
+    top: 83px;
+    left: 47px;
+    padding: 4px 10px;
+}
 }
 @media screen and (max-width: 550px) {
     .cards .card {
@@ -125,5 +170,37 @@
         gap: 1rem !important;
         height: 28%;
     }
+    #Digital-Book .Dig-book-btn{
+    top: 80px;
+    left: 60px;
+    padding: 5px 13px;
+}
+}
+
+@media (max-width: 414px) {
+    .arrivals-container {
+        gap: 20px;
+    }
+    
+    .Arrival-card {
+        width: 230px;
+        min-height: 190px;
+    }
+    
+    .Arrival-card img {
+        width: 160px;
+        height: 70%;
+    }
+    #Digital-Book .Dig-book-btn{
+    top: 120px;
+    left: 100px;
+    }
+    #footer .container {
+        gap: 25px;
+    }
+    .f-box {
+        max-width: 130px;
+    }
+    
 }
 
