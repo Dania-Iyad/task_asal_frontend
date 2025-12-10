@@ -498,3 +498,31 @@ section {
     box-shadow: 0 5px 15px rgba(69,183,196,0.4);
     transform: translateY(-5%);
 }
+
+
+
+
+#Reviews {
+    text-align: center;
+    padding: 50px 0;
+    font-family: sans-serif;
+}
+#Reviews .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 93%;
+    margin: auto;
+    gap: 14px;
+    justify-content: center;
+}
+.card-review {
+    background: #fff;
+    border: 1.5px solid rgb(182, 252, 248);
+    box-shadow: 0 0 3px rgb(57, 169, 162);
+    padding: 10px;
+    width: 255px; 
+    height: auto;
+    position: relative;
+    text-align: left;
+    transition: 0.3s;
+}
