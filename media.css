@@ -1,3 +1,14 @@
+@media (max-width: 1024px) {
+    .arrivals-container {
+        gap: 45px;
+    }
+    
+    .Arrival-card {
+        width: 230px; 
+        min-height: 250px;
+    }
+    
+}
 @media screen and (max-width: 1200px) {
     .Featured .feat_btn {
         height: 3vw;
@@ -125,5 +136,22 @@
         gap: 1rem !important;
         height: 28%;
     }
+}
+
+@media (max-width: 414px) {
+    .arrivals-container {
+        gap: 20px;
+    }
+    
+    .Arrival-card {
+        width: 230px;
+        min-height: 190px;
+    }
+    
+    .Arrival-card img {
+        width: 160px;
+        height: 70%;
+    }
+    
 }
 
